@@ -1,5 +1,5 @@
 // Uncomment to fix the issue:
-// import '@babylonjs/core';
+// import '@babylonjs/core/Rendering/boundingBoxRenderer';
 import { Game } from './game';
 
 window.addEventListener('DOMContentLoaded', () => {
