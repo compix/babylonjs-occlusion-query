@@ -1,3 +1,5 @@
+// Uncomment to fix the issue:
+// import '@babylonjs/core';
 import { Game } from './game';
 
 window.addEventListener('DOMContentLoaded', () => {
