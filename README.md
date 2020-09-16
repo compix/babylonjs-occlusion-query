@@ -2,7 +2,7 @@ A minimal project showcasing the babylonjs occlusion query issue as described he
 
 **Expected behaviour**: In the developer console the message changes from "Not Occluded" to "Occluded" as soon as the small cube is occluded by the big cube. The log keeps printing "Not Occluded" however.
 
-**Fix**: Uncomment `import '@babylonjs/core';` in index.ts.
+**Fix**: Uncomment `import '@babylonjs/core/Rendering/boundingBoxRenderer';` in index.ts.
 
 ## How to Start? ##
 
