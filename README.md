@@ -1,4 +1,8 @@
-A starter template for those who want to use the famous javascript 3D game engine babylonjs with typescript and webpack.
+A minimal project showcasing the babylonjs occlusion query issue as described here: https://forum.babylonjs.com/t/occlusion-query-usage-without-inspector/14154
+
+**Expected behaviour**: In the developer console the message changes from "Not Occluded" to "Occluded" as soon as the small cube is occluded by the big cube. The log keeps printing "Not Occluded" however.
+
+**Fix**: Uncomment `import '@babylonjs/core';` in index.ts.
 
 ## How to Start? ##
 
